@@ -84,8 +84,6 @@ public class API_request {
             JSONObject jsonObject1 = jsonObject.getJSONObject("city");
 
             JSONArray forecastList = jsonObject.getJSONArray("list");
-            jsonObject1 = forecastList.getJSONObject(0);
-            setForecastInformation(jsonObject1);
 
             /*
             To display only Today, tomorrow and after tomorrow
